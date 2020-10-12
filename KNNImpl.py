@@ -30,7 +30,7 @@ def loadDataSet():
 #Loading Test data sets from sampledata.txt file
 def loadInputData():
     sampleData = []
-    fileSecondh = open(os.getcwd() + "//axk1923_hw1//code//sampledata.txt")
+    fileSecondh = open(os.getcwd() + "//code//sampledata.txt")
 
     try:
         csv_reader = csv.reader(fileSecondh,delimiter=',')
